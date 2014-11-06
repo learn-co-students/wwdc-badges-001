@@ -5,8 +5,6 @@
 
 # Badges and Schedules
 
-### Skills: blocks, loops?
-
 ## Instructions
 
 In this lab you'll be learning how to iterate through an array and output the results in different ways. Your code will go in the "main.m" file under the "insert code here" comment.
