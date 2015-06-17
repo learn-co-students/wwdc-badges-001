@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WWDCBadges.xcodeproj">
+      location = "self:wwdc-badges.xcodeproj">
    </FileRef>
 </Workspace>
