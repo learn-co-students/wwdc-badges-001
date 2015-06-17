@@ -398,6 +398,7 @@
 				4D9186DF1B31C8680032356C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D9186E01B31C8680032356C /* Build configuration list for PBXNativeTarget "wwdc-badgesTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +407,7 @@
 				4D9186E21B31C8680032356C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
