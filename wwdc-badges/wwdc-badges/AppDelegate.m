@@ -18,9 +18,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    // Hey!
+    NSArray *conferenceSpeakers = @[@"Anita Borg",@"Alan Kay",@"Ada Lovelace",@"Aaron Swartz",@"Alan Turing",@"Michael Faraday",@"Grace Hopper",@"Charles Babbage"];
+    NSLog(@"%@", conferenceSpeakers);
     
-    // Write your code here!!
+    for (NSInteger i = 0; i<8; i++) {
+        NSLog(@"Hello, my name is %@.", conferenceSpeakers[i]);
+    }
     
     return YES;
 }
