@@ -22,6 +22,27 @@
     
     // Write your code here!!
     
+    // Method 1: For Loop with NSInteger variable (as taught in Learn.co)
+    NSArray *conferenceSpeakers = [[NSArray alloc]initWithObjects:@"Anita Borg", @"Alan Kay", @"Ada Lovelace", @"Aaron Swartz", @"Alan Turing", @"Michael Faraday", @"Grace Hopper", @"Charles Babbage",nil];
+    for (NSUInteger i = 0; i < 8; i++) {
+        NSLog(@"Hello my name is %@", [conferenceSpeakers objectAtIndex:i]);
+    }
+    
+    // Method 2: Used fast enumeration learned in Code School
+    NSArray *conferenceSpeakers2 = @[@"Anita Borg", @"Alan Kay", @"Ada Lovelace", @"Aaron Swartz", @"Alan Turing", @"Michael Faraday", @"Grace Hopper", @"Charles Babbage"];
+    for (NSString *speaker in conferenceSpeakers2) {
+        NSLog(@"Hello my name is %@", speaker);
+    }
+    
+    // Advanced
+    NSArray *speakersFirstName = [[NSArray alloc]initWithObjects:@"Anita", @"Alan", @"Ada", @"Aaron", @"Alan", @"Michael", @"Grace", @"Charles",nil];
+    NSArray *speakersLastName = [[NSArray alloc]initWithObjects:@"Borg", @"Kay", @"Lovelace", @"Swartz", @"Turing", @"Faraday", @"Hopper", @"Babbage",nil];
+    for (NSUInteger i = 0; i < 8; i++) {
+        NSLog(@"Hello my name is %@ %@", [speakersFirstName objectAtIndex:i], [speakersLastName objectAtIndex:i]);
+    }
+    
+    
+    
     return YES;
 }
 
