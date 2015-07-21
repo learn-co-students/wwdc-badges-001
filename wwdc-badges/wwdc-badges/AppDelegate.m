@@ -30,7 +30,6 @@
     
     // Method 2: Used fast enumeration learned in Code School
     NSArray *conferenceSpeakers2 = @[@"Anita Borg", @"Alan Kay", @"Ada Lovelace", @"Aaron Swartz", @"Alan Turing", @"Michael Faraday", @"Grace Hopper", @"Charles Babbage"];
-    
     for (NSString *speaker in conferenceSpeakers2) {
         NSLog(@"Hello my name is %@", speaker);
     }
