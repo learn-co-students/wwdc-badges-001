@@ -18,13 +18,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    NSArray *conferenceSpeakers = @[ @"Anita Borg", @"Alan Kay", @"Ada Lovelace", @"Aaron Swartz", @"Alan Turing", @"Michael Faraday", @"Grace Hopper", @"Charles Babbage" ];
+    NSArray *firstNames = @[ @"Anita", @"Alan", @"Ada", @"Aaron", @"Alan", @"Michael", @"Grace", @"Charles" ];
+    NSArray *lastNames = @[ @"Borg", @"Kay", @"Lovelace", @"Swartz", @"Turing", @"Faraday", @"Hopper", @"Babbage" ];
+
     
     for (NSUInteger i=0; i < 8; i++) {
-    // NSLog(@"Hello, my name is %ld.", (long)i);
-    // prints  "Hello, my name is 0."
         
-    NSLog(@"Hello, my name is %@.", conferenceSpeakers[i]);
+    NSLog(@"Hello, my name is %@ %@.", firstNames[i], lastNames[i]);
     // Within the loop, because on each iteration of it you want to access the name (string) within the conferenceSpeakers array, you can submit a subscripting of the array that uses the counter i to access each name in the array by index.
     //subscripting uses the square brackets [``] to accept an integer that matches the index number of the object you want to get out of the array. Within the loop, we want to pass the variable i because it changes for each iteration of the loop. so this would look like conferenceSpeakers[i]
         
