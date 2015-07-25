@@ -22,6 +22,25 @@
     
     // Write your code here!!
     
+    
+    //NSArray to store the speaker's first name
+    NSArray *speakersfirstname = @[@"Anita", @"Alan", @"Ada", @"Aaron", @"Alan", @"Michael", @"Grace",@"Charles"];
+    
+    //NSArray to store the speaker's last name
+    NSArray *speakerslastname = @[@"Borg", @"Kay", @"Lovelace", @"Swartz", @"Turing", @"Faraday", @"Hopper", @"Babbage"];
+    
+    //for loop to print out NSLog for each name
+    //using n as a counter to run through the array
+    //because the array starts counting at 0 and there are 8 names to run through, loop will stop at less than 8 to run through all names
+    //n++ to count through
+    for (NSUInteger n = 0; n < 8; n++){
+        NSLog(@"Hello, my name is %@ %@.", speakersfirstname[n], speakerslastname[n]);
+    }
+    
+    //program runs; output in debugger box as requested but runs the timestamp and file name before every line.... not sure hot to eliminate that part
+    //I really like quishing my comments into my code
+    //Yaaaaaay
+    
     return YES;
 }
 
