@@ -22,6 +22,13 @@
     
     // Write your code here!!
     
+    NSArray *firstNames = @[@"Anita", @"Alan", @"Ada", @"Aaron", @"Alan", @"Michael", @"Grace", @"Charles"];
+    NSArray *lastNames = @[@"Borg", @"Kay", @"Lovelace", @"Swartz", @"Turing", @"Faraday", @"Hopper", @"Babbage"];
+    
+    for (NSInteger i=0; i<[firstNames count]; i++) {
+        NSLog(@"Hello, my name is %@ %@.",firstNames[i], lastNames[i]);
+    }
+    
     return YES;
 }
 
