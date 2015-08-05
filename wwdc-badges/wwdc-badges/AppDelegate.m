@@ -22,6 +22,21 @@
     
     // Write your code here!!
     
+    NSArray *conferenceSpeaker = @[@"Anita Borg", @"Alan Kay", @"Ada Lovelace", @"Aaron Swartz",
+                                   @"Michael Faraday", @"Grace Hopper", @"Charles Babbage"];
+    
+    for (NSInteger i = 0; i < [conferenceSpeaker count]; i++) {
+        NSLog(@"Hello, my name is %@.", conferenceSpeaker[i]);
+    }
+    
+    //Advance
+    NSArray *speakerFisrtName = @[@"Anita", @"Alan", @"Ada", @"Aaron", @"Michael", @"Grace", @"Charles"];
+    NSArray *speakerLastName = @[@"Borg", @"Kay", @"Lovelace", @"Swartz", @"Faraday", @"Hopper", @"Babbage"];
+    
+    for (NSInteger i = 0; i < [speakerFisrtName count]; i++) {
+        NSLog(@"Hello, my name is %@ %@.", speakerFisrtName[i], speakerLastName[i]);
+    }
+    
     return YES;
 }
 
