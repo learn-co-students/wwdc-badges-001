@@ -22,6 +22,13 @@
     
     // Write your code here!!
     
+    
+    NSArray *conferenceSpeakersFirst =@[ @"Anita", @"Alan", @"Ada", @"Aaron", @"Alan", @"Michael", @"Grace", @"Charles"];
+    NSArray *conferenceSpeakersLast =@[ @"Borg", @"Kay", @"Lovelace", @"Swartz", @"Turing", @"Faraday", @"Hopper", @"Babbage"];
+    for (NSUInteger i = 0; i < 8; i++) {
+        NSLog(@"Hello, my name is %@ %@", conferenceSpeakersFirst[i], conferenceSpeakersLast[i]);
+    }
+    
     return YES;
 }
 
