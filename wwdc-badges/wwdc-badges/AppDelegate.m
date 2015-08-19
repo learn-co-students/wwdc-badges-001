@@ -22,6 +22,15 @@
     
     // Write your code here!!
     
+    NSArray *conferenceSpeakers = [NSArray arrayWithObjects: @"Anita Borg", @"Alan Kay", @"Ada Lovelace", @"Aaron Swartz", @"Alan Turing", @"Micheal Faraday", @"Grace Hopper", @"Charles Babbage", nil];
+    
+    for (int i=0; i<[conferenceSpeakers count]; i++) {
+        NSLog(@"Hello, my name is %@", conferenceSpeakers[i]);
+        
+    }
+    
+    
+    
     return YES;
 }
 
