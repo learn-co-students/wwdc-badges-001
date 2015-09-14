@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D9186C01B31C8680032356C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9186BF1B31C8680032356C /* main.m */; };
-		4D9186C31B31C8680032356C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9186C21B31C8680032356C /* AppDelegate.m */; };
+		4D9186C31B31C8680032356C /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9186C21B31C8680032356C /* FISAppDelegate.m */; };
 		4D9186CB1B31C8680032356C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9186CA1B31C8680032356C /* Images.xcassets */; };
 		4D9186CE1B31C8680032356C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9186CC1B31C8680032356C /* LaunchScreen.xib */; };
 		4D9186DA1B31C8680032356C /* wwdc_badgesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9186D91B31C8680032356C /* wwdc_badgesTests.m */; };
@@ -28,8 +28,8 @@
 		4D9186BA1B31C8680032356C /* wwdc-badges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wwdc-badges.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9186BE1B31C8680032356C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9186BF1B31C8680032356C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D9186C11B31C8680032356C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4D9186C21B31C8680032356C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D9186C11B31C8680032356C /* FISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		4D9186C21B31C8680032356C /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		4D9186CA1B31C8680032356C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D9186CD1B31C8680032356C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4D9186D31B31C8680032356C /* wwdc-badgesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wwdc-badgesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,8 +76,8 @@
 		4D9186BC1B31C8680032356C /* wwdc-badges */ = {
 			isa = PBXGroup;
 			children = (
-				4D9186C11B31C8680032356C /* AppDelegate.h */,
-				4D9186C21B31C8680032356C /* AppDelegate.m */,
+				4D9186C11B31C8680032356C /* FISAppDelegate.h */,
+				4D9186C21B31C8680032356C /* FISAppDelegate.m */,
 				4D9186CA1B31C8680032356C /* Images.xcassets */,
 				4D9186CC1B31C8680032356C /* LaunchScreen.xib */,
 				4D9186BD1B31C8680032356C /* Supporting Files */,
@@ -210,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9186C31B31C8680032356C /* AppDelegate.m in Sources */,
+				4D9186C31B31C8680032356C /* FISAppDelegate.m in Sources */,
 				4D9186C01B31C8680032356C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
