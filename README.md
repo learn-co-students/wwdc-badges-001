@@ -1,51 +1,38 @@
-# Badges and Schedules
+# WWDC Badges
 
 ## Objectives
 
-1. Navigate Xcode well enough to print to the debugger console,
-2. Create a static array,
-3. Use a `for` loop to iterate over an array,
-4. Printout with `NSLog()` by using string interpolation.
+1. Create an array containing string objects.
+2. Iterate over an array with a `for` loop.
+3. Access an array's elements with subscripting syntax.
+4. Use an array's elements to print a dynamically interpolated string to the console.
 
-## Review
+## Introduction
 
-You've absorbed a lot of information about programming from that group of readings. At this point, you've read about:
+You're helping out at Apple's [Worldwide Developers Conference](https://developer.apple.com/wwdc/) this year. Your task is to print badges for each of the eight keynote speakers. Each speaker's badge needs to say, "Hello, my name is <#name#>." with the <#name#> field filled with that speaker's name.
 
-* the general layout of Xcode,
-* declaring and defining variables,
-* calling methods,
-* creating and manipulating string objects,
-* wrapping primitives in `NSNumber` objects,
-* evaluating `if` conditionals,
-* creating `for` loops, and
-* holding variables in ordered collections (arrays).
+This is not a code-along. You will need to solve this lab yourself by incorporated various elements from previous lessons to get the correct printout in your debug console.
 
-Now it's time put your new knowledge into practice and turn it into skill.
+## Instructions
 
-## Intructions
+Fork and clone this lab. Open the `wwdc-badges.xcodeproj` file and navigate to the `FISAppDelegate.m` implementation file. Write your code in the `application:didFinishLaunchingWithOptions:` method.
 
-In this lab you'll practice how to combine iterating through an array with string interpolation.
+1. Create an `NSArray` object named `conferenceSpeakers` to store the list of speaker names as strings:
 
-Here's the premise: you're helping out at the [Apple Worldwide Developers Conference](https://developer.apple.com/wwdc/) conference and need to print badges for the speakers. Each speaker's badge needs to say, "Hello, my name is <#name#>."
-
-  1. Open the `*.xcodeproj` and navigate to the `AppDelegate.m` implementation file. Locate the correct place to write your code in the `application:didFinishLaunchingWithOptions:` method.
-
-  2. Create an `NSArray` object named `conferenceSpeakers` to store the list of speaker names as strings:
-
-    * Anita Borg
-    * Alan Kay
-    * Ada Lovelace
-    * Aaron Swartz
-    * Alan Turing
-    * Michael Faraday
-    * Grace Hopper
-    * Charles Babbage
+    * [Anita Borg](https://en.wikipedia.org/wiki/Anita_Borg)
+    * [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay)
+    * [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)
+    * [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)
+    * [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing)
+    * [Michael Faraday](https://en.wikipedia.org/wiki/Michael_Faraday)
+    * [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
+    * [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage)
  
  That's quite a lineup!
 
-  3. Iterate over the `conferenceSpeakers` array using a `for` loop. (Remember, arrays begin at index `0`!) Use `NSLog()`inside the loop to print `"Hello, my name is <#name#>."` for each speaker in the array. Remember to use string interpolation for the `NSLog()`.
+2. Iterate over the `conferenceSpeakers` array using a `for` loop. (Remember, arrays begin at index `0`!) Use string interpolation with an `NSLog()`inside the loop to print `"Hello, my name is <#name#>."` for each speaker's name in the array.
 
-  4. Run (`⌘`+`R`) the application on your iOS Simulator. In your debugger console you should see the following lines print out.
+3. Run (`⌘`+`R`) the application. You should see the following lines print out in the debug console.
 
 ```objc
 Hello, my name is Anita Borg.
@@ -61,4 +48,4 @@ Hello, my name is Charles Babbage.
 
 ### Advanced
 
-Instead of using a single array for names, split the names into two separate arrays for first name and last name. Alter your `NSLog()` to take format arguments from both arrays: `Hello, my name is <#firstName#> <#lastName#>.`. You should get an equivalent result to the one shown in step 4.
+Instead of using a single array for names, split the names into two separate arrays for first name and last name. Alter your `NSLog()` to take two format arguments, one from each array: `Hello, my name is <#firstName#> <#lastName#>.`. You should get an equivalent result to the one shown above.
