@@ -2,10 +2,6 @@
 
 #import "FISAppDelegate.h"
 
-@interface FISAppDelegate ()
-
-@end
-
 @implementation FISAppDelegate
 
 
@@ -18,7 +14,9 @@
      
      */
     
-    return YES;
+    // do not alter
+    return YES;  //
+    ///////////////
 }
 
 @end
