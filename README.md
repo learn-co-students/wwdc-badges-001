@@ -18,7 +18,6 @@ This is not a code-along. You will need to solve this lab yourself by incorporat
 Fork and clone this lab. Open the `wwdc-badges.xcodeproj` file and navigate to the `FISAppDelegate.m` implementation file. Write your code in the `application:didFinishLaunchingWithOptions:` method.
 
 1. Create an `NSArray` object named `conferenceSpeakers` to store the list of speaker names as strings:
-
     * [Anita Borg](https://en.wikipedia.org/wiki/Anita_Borg)
     * [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay)
     * [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace)
