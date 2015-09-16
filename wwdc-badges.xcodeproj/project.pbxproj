@@ -13,16 +13,6 @@
 		4D9186CE1B31C8680032356C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9186CC1B31C8680032356C /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4D9186D41B31C8680032356C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4D9186B21B31C8680032356C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D9186B91B31C8680032356C;
-			remoteInfo = "wwdc-badges";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		4D9186BA1B31C8680032356C /* wwdc-badges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wwdc-badges.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9186BE1B31C8680032356C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,19 +21,10 @@
 		4D9186C21B31C8680032356C /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		4D9186CA1B31C8680032356C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D9186CD1B31C8680032356C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4D9186D31B31C8680032356C /* wwdc-badgesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wwdc-badgesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D9186D81B31C8680032356C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4D9186B71B31C8680032356C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D9186D01B31C8680032356C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,7 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				4D9186BC1B31C8680032356C /* wwdc-badges */,
-				4D9186D61B31C8680032356C /* wwdc-badgesTests */,
 				4D9186BB1B31C8680032356C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				4D9186BA1B31C8680032356C /* wwdc-badges.app */,
-				4D9186D31B31C8680032356C /* wwdc-badgesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,22 +71,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4D9186D61B31C8680032356C /* wwdc-badgesTests */ = {
-			isa = PBXGroup;
-			children = (
-				4D9186D71B31C8680032356C /* Supporting Files */,
-			);
-			path = "wwdc-badgesTests";
-			sourceTree = "<group>";
-		};
-		4D9186D71B31C8680032356C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4D9186D81B31C8680032356C /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,24 +91,6 @@
 			productReference = 4D9186BA1B31C8680032356C /* wwdc-badges.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4D9186D21B31C8680032356C /* wwdc-badgesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4D9186E01B31C8680032356C /* Build configuration list for PBXNativeTarget "wwdc-badgesTests" */;
-			buildPhases = (
-				4D9186CF1B31C8680032356C /* Sources */,
-				4D9186D01B31C8680032356C /* Frameworks */,
-				4D9186D11B31C8680032356C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D9186D51B31C8680032356C /* PBXTargetDependency */,
-			);
-			name = "wwdc-badgesTests";
-			productName = "wwdc-badgesTests";
-			productReference = 4D9186D31B31C8680032356C /* wwdc-badgesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,10 +102,6 @@
 				TargetAttributes = {
 					4D9186B91B31C8680032356C = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					4D9186D21B31C8680032356C = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 4D9186B91B31C8680032356C;
 					};
 				};
 			};
@@ -178,7 +119,6 @@
 			projectRoot = "";
 			targets = (
 				4D9186B91B31C8680032356C /* wwdc-badges */,
-				4D9186D21B31C8680032356C /* wwdc-badgesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -190,13 +130,6 @@
 			files = (
 				4D9186CE1B31C8680032356C /* LaunchScreen.xib in Resources */,
 				4D9186CB1B31C8680032356C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4D9186D11B31C8680032356C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,22 +145,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D9186CF1B31C8680032356C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4D9186D51B31C8680032356C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D9186B91B31C8680032356C /* wwdc-badges */;
-			targetProxy = 4D9186D41B31C8680032356C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4D9186CC1B31C8680032356C /* LaunchScreen.xib */ = {
@@ -341,40 +259,6 @@
 			};
 			name = Release;
 		};
-		4D9186E11B31C8680032356C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "wwdc-badgesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wwdc-badges.app/wwdc-badges";
-			};
-			name = Debug;
-		};
-		4D9186E21B31C8680032356C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "wwdc-badgesTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wwdc-badges.app/wwdc-badges";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -392,15 +276,6 @@
 			buildConfigurations = (
 				4D9186DE1B31C8680032356C /* Debug */,
 				4D9186DF1B31C8680032356C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D9186E01B31C8680032356C /* Build configuration list for PBXNativeTarget "wwdc-badgesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D9186E11B31C8680032356C /* Debug */,
-				4D9186E21B31C8680032356C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
