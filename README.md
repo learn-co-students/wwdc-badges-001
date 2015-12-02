@@ -48,3 +48,5 @@ Hello, my name is Charles Babbage.
 ### Advanced
 
 Instead of using a single array for names, split the names into two separate arrays for first name and last name. Alter your `NSLog()` to take two format arguments, one from each array: `Hello, my name is <#firstName#> <#lastName#>.`. You should get an equivalent result to the one shown above.
+
+<a href='https://learn.co/lessons/wwdc-badges' data-visibility='hidden'>View this lesson on Learn.co</a>
