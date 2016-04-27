@@ -11,7 +11,7 @@
 
 You're helping out at Apple's [Worldwide Developers Conference](https://developer.apple.com/wwdc/) this year. Your task is to print badges for each of the eight keynote speakers. Each speaker's badge needs to say, "Hello, my name is <#name#>." with the <#name#> field filled with that speaker's name.
 
-This is not a code-along. You will need to solve this lab yourself by incorporated various elements from previous lessons to get the correct printout in your debug console.
+This is not a code-along. You will need to solve this lab yourself by incorporating various elements from previous lessons to get the correct printout in your debug console.
 
 ## Instructions
 
@@ -48,3 +48,7 @@ Hello, my name is Charles Babbage.
 ### Advanced
 
 Instead of using a single array for names, split the names into two separate arrays for first name and last name. Alter your `NSLog()` to take two format arguments, one from each array: `Hello, my name is <#firstName#> <#lastName#>.`. You should get an equivalent result to the one shown above.
+
+<a href='https://learn.co/lessons/wwdc-badges' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/wwdc-badges'>WWDC Badges</a> on Learn.co and start learning to code for free.</p>
